@@ -1,4 +1,4 @@
-import { DiscordPayload } from "./discord";
+import { DiscordPayload } from "../types/discord";
 import Gateway from "../module/gateway.ts";
 
 export abstract class ActionQueue<Action> {
